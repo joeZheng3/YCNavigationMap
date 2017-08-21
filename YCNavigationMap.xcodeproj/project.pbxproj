@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE10FF91F4ABA0900B84758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE10FF81F4ABA0900B84758 /* main.m */; };
+		2DE110181F4ABA2200B84758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110101F4ABA2200B84758 /* AppDelegate.m */; };
+		2DE110191F4ABA2200B84758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE110111F4ABA2200B84758 /* Assets.xcassets */; };
+		2DE1101A1F4ABA2200B84758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE110121F4ABA2200B84758 /* LaunchScreen.storyboard */; };
+		2DE1101B1F4ABA2200B84758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE110141F4ABA2200B84758 /* Main.storyboard */; };
+		2DE1101C1F4ABA2200B84758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110171F4ABA2200B84758 /* ViewController.m */; };
+		2DE110201F4ABA9100B84758 /* RounteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1101F1F4ABA9100B84758 /* RounteViewController.m */; };
+		E0FDA7F61524B7BF18762326 /* libPods-YCNavigationMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2F680B5181C32C4A612BAC /* libPods-YCNavigationMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B2F680B5181C32C4A612BAC /* libPods-YCNavigationMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCNavigationMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F83AB3FBB640E128170BE48 /* Pods-YCNavigationMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCNavigationMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCNavigationMap/Pods-YCNavigationMap.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE10FF41F4ABA0900B84758 /* YCNavigationMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCNavigationMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE10FF81F4ABA0900B84758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DE110081F4ABA0900B84758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE1100F1F4ABA2200B84758 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DE110101F4ABA2200B84758 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DE110111F4ABA2200B84758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DE110131F4ABA2200B84758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DE110151F4ABA2200B84758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE110161F4ABA2200B84758 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DE110171F4ABA2200B84758 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DE1101E1F4ABA9100B84758 /* RounteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RounteViewController.h; sourceTree = "<group>"; };
+		2DE1101F1F4ABA9100B84758 /* RounteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RounteViewController.m; sourceTree = "<group>"; };
+		F6EBC0CB47EE28ADE1725612 /* Pods-YCNavigationMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCNavigationMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCNavigationMap/Pods-YCNavigationMap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE10FF11F4ABA0900B84758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FDA7F61524B7BF18762326 /* libPods-YCNavigationMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE10FEB1F4ABA0900B84758 = {
+			isa = PBXGroup;
+			children = (
+				2DE10FF61F4ABA0900B84758 /* YCNavigationMap */,
+				2DE10FF51F4ABA0900B84758 /* Products */,
+				983E3AA9199E42344DC279B2 /* Pods */,
+				8F0F9E67D5DFDD14834D62B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE10FF51F4ABA0900B84758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE10FF41F4ABA0900B84758 /* YCNavigationMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE10FF61F4ABA0900B84758 /* YCNavigationMap */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1100E1F4ABA2200B84758 /* AppEntry */,
+				2DE1101D1F4ABA9100B84758 /* VoiceNavigation */,
+				2DE10FF71F4ABA0900B84758 /* Supporting Files */,
+			);
+			path = YCNavigationMap;
+			sourceTree = "<group>";
+		};
+		2DE10FF71F4ABA0900B84758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE110081F4ABA0900B84758 /* Info.plist */,
+				2DE10FF81F4ABA0900B84758 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE1100E1F4ABA2200B84758 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1100F1F4ABA2200B84758 /* AppDelegate.h */,
+				2DE110101F4ABA2200B84758 /* AppDelegate.m */,
+				2DE110111F4ABA2200B84758 /* Assets.xcassets */,
+				2DE110121F4ABA2200B84758 /* LaunchScreen.storyboard */,
+				2DE110141F4ABA2200B84758 /* Main.storyboard */,
+				2DE110161F4ABA2200B84758 /* ViewController.h */,
+				2DE110171F4ABA2200B84758 /* ViewController.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		2DE1101D1F4ABA9100B84758 /* VoiceNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1101E1F4ABA9100B84758 /* RounteViewController.h */,
+				2DE1101F1F4ABA9100B84758 /* RounteViewController.m */,
+			);
+			path = VoiceNavigation;
+			sourceTree = "<group>";
+		};
+		8F0F9E67D5DFDD14834D62B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2F680B5181C32C4A612BAC /* libPods-YCNavigationMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983E3AA9199E42344DC279B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F83AB3FBB640E128170BE48 /* Pods-YCNavigationMap.debug.xcconfig */,
+				F6EBC0CB47EE28ADE1725612 /* Pods-YCNavigationMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE10FF31F4ABA0900B84758 /* YCNavigationMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE1100B1F4ABA0900B84758 /* Build configuration list for PBXNativeTarget "YCNavigationMap" */;
+			buildPhases = (
+				474E08F9911DF4E1631E222E /* [CP] Check Pods Manifest.lock */,
+				2DE10FF01F4ABA0900B84758 /* Sources */,
+				2DE10FF11F4ABA0900B84758 /* Frameworks */,
+				2DE10FF21F4ABA0900B84758 /* Resources */,
+				8475D647A3E56F71E8668A99 /* [CP] Embed Pods Frameworks */,
+				B268C135192FBB1124368A69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCNavigationMap;
+			productName = YCNavigationMap;
+			productReference = 2DE10FF41F4ABA0900B84758 /* YCNavigationMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE10FEC1F4ABA0900B84758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chit;
+				TargetAttributes = {
+					2DE10FF31F4ABA0900B84758 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = JCQL5V7V87;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2DE10FEF1F4ABA0900B84758 /* Build configuration list for PBXProject "YCNavigationMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE10FEB1F4ABA0900B84758;
+			productRefGroup = 2DE10FF51F4ABA0900B84758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE10FF31F4ABA0900B84758 /* YCNavigationMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE10FF21F4ABA0900B84758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE110191F4ABA2200B84758 /* Assets.xcassets in Resources */,
+				2DE1101B1F4ABA2200B84758 /* Main.storyboard in Resources */,
+				2DE1101A1F4ABA2200B84758 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		474E08F9911DF4E1631E222E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8475D647A3E56F71E8668A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCNavigationMap/Pods-YCNavigationMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B268C135192FBB1124368A69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCNavigationMap/Pods-YCNavigationMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE10FF01F4ABA0900B84758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE110181F4ABA2200B84758 /* AppDelegate.m in Sources */,
+				2DE110201F4ABA9100B84758 /* RounteViewController.m in Sources */,
+				2DE10FF91F4ABA0900B84758 /* main.m in Sources */,
+				2DE1101C1F4ABA2200B84758 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DE110121F4ABA2200B84758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE110131F4ABA2200B84758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE110141F4ABA2200B84758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE110151F4ABA2200B84758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE110091F4ABA0900B84758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DE1100A1F4ABA0900B84758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE1100C1F4ABA0900B84758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F83AB3FBB640E128170BE48 /* Pods-YCNavigationMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = YCNavigationMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.YCNavigationMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DE1100D1F4ABA0900B84758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EBC0CB47EE28ADE1725612 /* Pods-YCNavigationMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = YCNavigationMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.YCNavigationMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE10FEF1F4ABA0900B84758 /* Build configuration list for PBXProject "YCNavigationMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE110091F4ABA0900B84758 /* Debug */,
+				2DE1100A1F4ABA0900B84758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE1100B1F4ABA0900B84758 /* Build configuration list for PBXNativeTarget "YCNavigationMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE1100C1F4ABA0900B84758 /* Debug */,
+				2DE1100D1F4ABA0900B84758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE10FEC1F4ABA0900B84758 /* Project object */;
+}
